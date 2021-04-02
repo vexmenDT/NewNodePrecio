@@ -1,3 +1,6 @@
+create database unidadPrecios
+
+
 create table unidad_medida(
 	id_unidad int AUTO_INCREMENT,
 	descr char,
