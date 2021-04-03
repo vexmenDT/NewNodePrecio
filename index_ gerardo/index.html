@@ -18,28 +18,22 @@
     </div>
 
     <div class="container p-0">
-        <div class="row mb-3">
+        <!-- Clientes  Inicio -->
+        <!-- Clientes  Inicio -->
+        <!-- Clientes  Inicio -->
+        <!-- Clientes  Inicio -->
+        <!-- Clientes  Inicio -->
+        <!-- Clientes  Inicio -->
+        <!-- Clientes  Inicio -->
+        <!-- Clientes  Inicio -->
+        <!-- Clientes  Inicio -->
+        <div class="row mb-3 border">
             <!-- datos Usuario -->
-            <div class="border p-2 mb-2">
-                <h3>Usuario</h3>
+            <div class="p-2 mb-2 col-6">
+                <h3>Cliente</h3>
                 <form class="row align-items-end g-3 pb-3">
                     <div class="col-md-7">
-                        <label for="descripcion" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="inputPassword4" placeholder="Nombre">
-                    </div>
-                    <div class="col-auto">
-                        <button type="submit" class="btn btn-primary">Agregar</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <!-- empieza seccion de escogenr materiales -->
-        <div class="row">
-            <div class="border mb-4">
-                <h3 class="pb-2">Agregar</h3>
-                <form class="row align-items-end mb-4" action="" method="">
-                    <div class="col-sm-6">
-                        <label class="visually" for="ManoObra">Mano de Obra</label>
+                        <label class="visually" for="ManoObra">Clientes</label>
                         <select class="form-select" name="">
                             <option selected>Choose...</option>
                             <option value="1">One</option>
@@ -47,8 +41,82 @@
                             <option value="3">Three</option>
                         </select>
                     </div>
-                    <div class="col-sm-3">
-                        <label class="visually" for="ManoObra">Unidad Medida</label>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary">Seleccionar</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="border col-5 p-2">
+                <h4 class="pb-3">Nuevo Cliente</h4>
+                <div class="d-grid">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                        Nuevo Cliente
+                    </button>
+                </div>
+
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Agregar Datos</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="row g-3">
+                                    <div class="col-md-12">
+                                        <label for="nombre" class="form-label">Nombre</label>
+                                        <input type="text" class="form-control" id="inputPassword4" name="nombreCliente">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="calle" class="form-label">Calle</label>
+                                        <input type="text" class="form-control" id="inputPassword4" name="calle">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="colonia" class="form-label">Colonia</label>
+                                        <input type="text" class="form-control" id="inputPassword4" name="colonia">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="cp" class="form-label">CP</label>
+                                        <input type="number" class="form-control" id="inputCity" name="cp" min="0">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="numExt" class="form-label">Numero Exterior</label>
+                                        <input type="text" class="form-control" id="inputPassword4" name="numExt">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="estado" class="form-label">Estado</label>
+                                        <input type="text" class="form-control" id="inputPassword4" name="estado">
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary">Agregar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Clientes Final end -->
+        <!-- Clientes Final end -->
+        <!-- Clientes Final end -->
+        <!-- Clientes Final end -->
+        <!-- Clientes Final end -->
+        <!-- Clientes Final end -->
+        <!-- Clientes Final end -->
+        <!-- Clientes Final end -->
+        <!-- Clientes Final end -->
+
+        <!-- empieza seccion de escogenr materiales -->
+        <div class="row">
+            <div class="border mb-4">
+                <h3 class="pb-2">Agregar</h3>
+                <form class="row align-items-end mb-4" action="" method="">
+                    <div class="col-sm-6">
+                        <label class="visually" for="ManoObra">Mano de Obra</label>
                         <select class="form-select" name="">
                             <option selected>Choose...</option>
                             <option value="1">One</option>
@@ -75,15 +143,6 @@
                             <option value="3">Three</option>
                         </select>
                     </div>
-                    <div class="col-sm-3">
-                        <label class="visually" for="ManoObra">Unidad Medida</label>
-                        <select class="form-select" name="">
-                            <option selected>Choose...</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
                     <div class="col-sm-2">
                         <label class="visually" for="Cantidad">Cantidad</label>
                         <input type="number" class="form-control" placeholder="Cantidad" min="0" name="">
@@ -96,15 +155,6 @@
                 <form class="row align-items-end mb-4" action="" method="">
                     <div class="col-sm-6">
                         <label class="visually" for="ManoObra">Materiales</label>
-                        <select class="form-select" name="">
-                            <option selected>Choose...</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                    <div class="col-sm-3">
-                        <label class="visually" for="ManoObra">Unidad Medida</label>
                         <select class="form-select" name="">
                             <option selected>Choose...</option>
                             <option value="1">One</option>
@@ -190,28 +240,29 @@
             </div>
         </div>
 
+
         <!-- Resumen -->
         <div class="row">
             <div class="col-12 border p-2">
-                <h3>Resumen</h1>
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
-                                <th scope="col">Nombre</th>
-                                <th scope="col">Precio</th>
-                                <th scope="col">Cantidad</th>
-                                <th scope="col">Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th>1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <h3>Resumen</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
