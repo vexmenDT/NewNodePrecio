@@ -1,0 +1,12 @@
+.barra-principal {
+    background-color: darkblue;
+    padding: .5rem 0;
+    margin-bottom: 2rem;
+}
+
+.barra-principal h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
