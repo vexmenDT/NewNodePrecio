@@ -113,7 +113,7 @@
 
         <!-- empieza seccion de escogenr materiales -->
         <div class="row">
-            <div class="border mb-4 col-8">
+            <div class="mb-4 col-6">
                 <h3 class="pb-2">Agregar</h3>
                 <form class="row align-items-end mb-4" action="" method="">
                     <div class="col-sm-6">
@@ -172,17 +172,89 @@
                     </div>
                 </form>
             </div>
-            <div class="col-4 border">
-                <h1>Id Factura</h1>
-                <h2>Numero de Factura</h2>
-            </div>
-        </div>
+            <!-- se agrego la clase overflow-scroll -->
+            <div class="col-6 overflow-scroll">
+                <!-- Inicia edicion Paps -->
+                <!-- Inicia edicion Paps -->
+                <!-- Inicia edicion Paps -->
+                <!-- Inicia edicion Paps -->
+                <div>
+                    <h3 class="pb-2">Lista</h3>
+                    <form class="row align-items-end mb-4" action="" method="">
+                        <div class="col-sm-6">
+                            <label class="visually" for="ManoObra">Seleccione</label>
+                            <select class="form-select" name="">
+                                <option selected>Choose...</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                        </div>
+                        <div class="col-auto">
+                            <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal5">
+                                Editar
+                            </button>
+                        </div>
+
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Agregar Datos</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form class="row g-3">
+                                            <div class="col-md-12">
+                                                <label for="nombre" class="form-label">Nombre</label>
+                                                <input type="text" class="form-control" id="inputPassword4">
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label for="descripcion" class="form-label">Descripción</label>
+                                                <input type="text" class="form-control" id="inputPassword4">
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label for="idUnidad" class="mb-2">Unidad Medida</label>
+                                                <select class="form-select" name="">
+                                                    <option selected>Choose...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label for="idUnidad" class="mb-2">Categoria</label>
+                                                <select class="form-select" name="">
+                                                    <option selected>Choose...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label for="precioUnitario" class="form-label">Precio</label>
+                                                <input type="number" class="form-control" id="inputCity">
+                                            </div>
+                                            <div class="col-12">
+                                                <button type="submit" class="btn btn-primary">Modificar</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
 
 
-        <div class="row mb-4">
-            <!-- Nuevos productos -->
-            <div class="border col-12 p-2">
-                <h4 class="pb-3">Nuevo producto/servico</h4>
+                <div>
+                    <h4 class="pb-3">Nuevo producto/servico</h4>
                 <div class="d-grid">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Nuevo producto/servico
@@ -199,23 +271,7 @@
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <!-- Alerta Inicio -->
-                                <!-- Alerta Inicio -->
-                                <!-- Alerta Inicio -->
-                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                                    <strong>ALERTA!</strong> Al gregar un nuevo servicio / producto el resumen existente desaparecera.
-                                    <button type="button" class="btn-close" data-bs-dismiss="alert"
-                                        aria-label="Close"></button>
-                                </div>
-                                <!-- Alerta fin -->
-                                <!-- Alerta fin -->
-                                <!-- Alerta fin -->
-                                <!-- Alerta fin -->
                                 <form class="row g-3">
-                                    <div class="col-md-12">
-                                        <label for="idLP" class="form-label">Id</label>
-                                        <input type="number" class="form-control" id="inputEmail4">
-                                    </div>
                                     <div class="col-md-12">
                                         <label for="nombre" class="form-label">Nombre</label>
                                         <input type="text" class="form-control" id="inputPassword4">
@@ -254,6 +310,22 @@
                         </div>
                     </div>
                 </div>
+                </div>
+
+
+                <!-- termina edicion paps -->
+                <!-- termina edicion paps -->
+                <!-- termina edicion paps -->
+                <!-- termina edicion paps -->
+                <!-- termina edicion paps -->
+            </div>
+        </div>
+
+
+        <div class="row mb-4">
+            <!-- Nuevos productos -->
+            <div class="border col-12 p-2">
+                
             </div>
         </div>
 
